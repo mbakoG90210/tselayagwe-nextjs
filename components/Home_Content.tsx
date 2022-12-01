@@ -5,19 +5,27 @@ type Props = {};
 function Home_Content({ }: Props) {
   return (
     <div>
-      <main className="flex flex-col items-center text-center mt-28">
-        <section className="p-20 space-y-8 mx-28">
-          <p className="my-5 text-2xl py-6 font-normal justify-center">
-            We focus on the 5 key sectors of the value chain to help you
-            overcome times of inflations and gain unbeatable returns
-          </p>
-          <ul className="my-5  text-2xl text-center font-medium flex flex-col flex-direction: column; justify-center  align-items: center;">
-            <li className="my-2"> Land development</li>
-            <li className="my-2"> Seed production </li>
-            <li className="my-2"> Agro-processing </li>
-            <li className="my-2"> Transportation and logistics </li>
-            <li className="my-2"> Distribution </li>
-          </ul>
+      <main className="flex flex-col items-center text-center">
+        <section className="p-20 space-y-8 mx-28 ">
+          <div className="card w-96 glass bg-neutral-content">
+            <div className="card-body">
+              <p className="my-5 text-2xl py-6 font-normal justify-center">
+                We focus on the 5 key sectors of the value chain to help you
+                overcome times of inflations and gain unbeatable returns
+              </p>
+            </div>
+          </div>
+          <div className="card w-96 bg-primary text-primary-content">
+            <div className="card-body">
+              <ul className="  text-2xl text-center font-medium flex flex-col flex-direction: column; justify-center  align-items: center;">
+                <li className="my-2"> Land development</li>
+                <li className="my-2"> Seed production </li>
+                <li className="my-2"> Agro-processing </li>
+                <li className="my-2"> Transportation and logistics </li>
+                <li className="my-2"> Distribution </li>
+              </ul>
+            </div>
+          </div>
         </section>
 
         {/* Parallax Background */}
@@ -30,7 +38,7 @@ function Home_Content({ }: Props) {
         ></section>
 
         {/* Content */}
-        <section className="p-20 space-y-8 mx-28 text-center">
+        <section className="p-20 space-y-8 text-center bg-neutral-content">
           <div>
             <h3 className="my-2.5 text-2xl text-center font-medium">
               {" "}
@@ -38,6 +46,7 @@ function Home_Content({ }: Props) {
             </h3>
             <p> Make a 100% profit from an investment as little as P5.00</p>
             <br />
+            <div className="divider"></div> 
             <h3 className="my-2.5 text-2xl text-center font-medium">
               {" "}
               EARN WEEKLY, QUARTERLY AND OR YEARLY{" "}
@@ -48,6 +57,7 @@ function Home_Content({ }: Props) {
               suits your pocket and financial plans</p>
 
             <br />
+            <div className="divider"></div> 
             <h3 className="my-2.5 text-2xl text-center font-medium">
               {" "}
               INVEST IN ECONOMIC TRANSFORMATION{" "}
@@ -56,8 +66,8 @@ function Home_Content({ }: Props) {
               job creation, inclusivity, wealth distribution and gain returns</p>
 
             <br />
+            <div className="divider"></div> 
           </div>
-          <br />
           <div>
             <h3 className="my-2.5 text-2xl text-center font-medium">
               {" "}
@@ -72,6 +82,7 @@ function Home_Content({ }: Props) {
               fork. Everyone plays a role.</p>
 
             <br />
+            <div className="divider"></div>
             <h3 className="my-2.5 text-2xl text-center font-medium">
               {" "}
               NO NEED TO SELL YOUR FARM LAND{" "}

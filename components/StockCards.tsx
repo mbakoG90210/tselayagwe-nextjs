@@ -18,7 +18,10 @@ function StockCards({ }: Props) {
                 >
 
                     <div className="card w-96 glass m-10">
-                        <figure><img src="https://images.unsplash.com/photo-1615671524827-c1fe3973b648?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="seedlings" /></figure>
+                        <figure><img 
+                        
+                        src="https://images.unsplash.com/photo-1615671524827-c1fe3973b648?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" 
+                        alt="seedlings" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">CROP PRODUCTION</h2>
                             <ul>

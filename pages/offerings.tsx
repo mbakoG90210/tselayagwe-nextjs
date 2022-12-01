@@ -205,7 +205,7 @@ function Offerings({ }: Props) {
                                 <input type="checkbox" id="my-modal-farmOp" className="modal-toggle" />
                                 <div className="modal modal-bottom cursor-pointer sm:modal-middle">
                                     <div className="modal-box">
-                                        <h5 className="font-bold text-lg">
+                                        <h5 className="font-bold text-lg mt-5">
                                             {" "}
                                             Fill in our customer details form below and we will get in touch with you
                                             {" "}

@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import Home_Content from "../components/Home_Content";
@@ -20,27 +19,18 @@ export default function Home() {
       <Navbar />
 
       {/* Hero */}
-      <section >
-        <Hero />
-      </section>
+      <Hero />
+
 
       {/* Header */}
       <Header />
 
 
       {/* Home page Content */}
-      <section>
+
       <Home_Content />
-      </section>
-    
 
-      {/* Offererings */}
 
-      {/* Team */}
-
-      {/*Contact Us*/}
-
-      {/* Footer */}
       <Footer />
 
       {/* Login */}
