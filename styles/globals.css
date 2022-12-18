@@ -29,4 +29,17 @@ a {
   }
 }
 
-
+@layer base {
+  ::-webkit-scrollbar-thumb {
+    @apply bg-transparent shadow-md;
+  }
+  ::-webkit-scrollbar {
+    @apply w-3 bg-transparent;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-neutral;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-lg bg-secondary-focus /*color trackbar*/;
+  }
+}
