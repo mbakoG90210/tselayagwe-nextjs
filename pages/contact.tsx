@@ -20,7 +20,7 @@ const contact = (props: Props) => {
       <div className="absolute inset-0 bg-gray-300 -z-10">
           <iframe
             width="100%"
-            height="100%"
+            height="120%"
             frameBorder={0}
             marginHeight={0}
             marginWidth={0}
