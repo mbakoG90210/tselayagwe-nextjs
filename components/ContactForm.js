@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import useWeb3Forms from "@web3forms/react";
+import { FaFacebookF, FaLinkedinIn, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 
 export default function Contact() {
   const {
@@ -24,8 +25,8 @@ export default function Contact() {
   const { submit: onSubmit } = useWeb3Forms({
     access_key: apiKey,
     settings: {
-      from_name: "Acme Inc",
-      subject: "New Contact Message from your Website",
+      from_name: "Tselayagwe Webapp",
+      subject: "New General Enquiry Message from your Website",
     },
     onSuccess: (msg, data) => {
       setIsSuccess(true);
@@ -187,9 +188,9 @@ export default function Contact() {
                   </div>
                   <i className="fab fa-phone-alt pt-2 pr-2">
                     <div className="flex flex-col">
-                      <h2 className="text-2xl">Call or Email Us</h2>
-                      <p className="text-white">Tel: +267-</p>
-                      <p className="text-white">email: info@tselayagwe.com</p>
+                      <h2 className="text-2xl"> Call or Email Us</h2>
+                      <p className="text-white"> <FaPhoneAlt /> Tel: +267-76628432</p>
+                      <p className="text-white"> <FaEnvelope />email: info@tselayagwe.com</p>
                     </div>
                   </i>
                 </div>
@@ -201,7 +202,7 @@ export default function Contact() {
                       rel="noreferrer"
                       className="rounded-full bg-white h-8 w-8 inline-block mx-1 text-center pt-1"
                     >
-                      <i className="fab fa-facebook-f text-blue-900"></i>
+                    <FaFacebookF />
                     </a>
                     <i className="fab fa-facebook-f text-blue-900">
                       <a
@@ -212,7 +213,7 @@ export default function Contact() {
                       >
                         <i className="fab fa-linkedin-in text-blue-900"></i>
                       </a>
-                      <i className="fab fa-linkedin-in text-blue-900"></i>
+                      <FaLinkedinIn />
                     </i>
                   </div>
                   <i className="fab fa-facebook-f text-blue-900">

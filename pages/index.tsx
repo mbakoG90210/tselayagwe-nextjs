@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Tselayagwe webapp</title>
-        <meta name="description" content="Based on Nextjs 13 (2022)" />
+        <meta name="description" content="Home of Agritech and Investment" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

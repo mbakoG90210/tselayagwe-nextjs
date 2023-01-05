@@ -8,7 +8,7 @@ const nextConfig = {
 
 
 module.exports = {
-  nextConfig,
+  //nextConfig,
   env: {
     PUBLIC_ACCESS_KEY: process.env.PUBLIC_ACCESS_KEY,
   },
